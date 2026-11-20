@@ -46,6 +46,15 @@ Equal times always fail. When the gap is 0, the reason is `times must increase`.
 
 Titles are trimmed. A blank title after trim is refused.
 
+### Attack → test
+
+| Attack | Lab behavior |
+| --- | --- |
+| Half-open gap rejecting exact boundary | exact previous+gap is **ok** |
+| Gap 0 same second | `times must increase` |
+| 21 events | refused |
+| Blank title | refused |
+
 ---
 
 ## Masterclass
@@ -57,17 +66,11 @@ Titles are trimmed. A blank title after trim is refused.
 3. Allowing two events at the same second when the product said "gap zero means back-to-back." Here gap zero still demands a strict increase.  
 4. Fetching Hyperion actions and citing this file as the query.
 
-### What this is not
-
-- An on-chain narrative table
-- A block-time oracle
-- A feed of AtomicAssets events
-
 ### Exercises
 
-1. Gap 30, times 100 and 130 — ok? (Yes.)  
+1. Gap 30, times 100 and 130 — ok? (**Yes**.)  
 2. Gap 0, times 50 and 50 — reason? (`times must increase`.)  
-3. Does a 21-event list succeed? (No.)
+3. Does a 21-event list succeed? (**No**.)
 
 ---
 
