@@ -1,7 +1,7 @@
 # A minimum gap between events
 
 **Trust label:** `educational-reference`  
-**Catalog:** [wax-ecosystem-blueprint-catalog](https://github.com/pixel-journey/wax-ecosystem-blueprint-catalog)
+**Catalog:** `wax-ecosystem-blueprint-catalog` (private index; not this public course)
 
 100 then 130 is kept when the gap is 30 seconds. 129 is refused. Nothing is stored.
 
